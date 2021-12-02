@@ -3,7 +3,7 @@ def task1():
     decrNumbers = 0
     sonarSweeps = []
 
-    with open("task_1/input.txt", "r") as task:
+    with open("task_1.txt", "r") as task:
         for line in task:
             line = line.strip("\n")
             sonarSweeps.append(int(line))
@@ -28,7 +28,7 @@ def task2():
     sonarSweeps = []
     sonarWindow = []
 
-    with open("task_2/input.txt", "r") as example:
+    with open("tast_2.txt", "r") as example:
         for line in example:
             line = line.strip("\n")
             sonarSweeps.append(int(line))

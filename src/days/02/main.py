@@ -1,5 +1,5 @@
 def task1():
-    with open("task_1/input.txt", "r") as ex:
+    with open("task_1.txt", "r") as ex:
         positions = [position.strip("\n") for position in ex]
 
     depth       = 0
@@ -43,5 +43,5 @@ def task2():
     print("---------------")
     print("Final position is: ", depth * forward)
 
-# task1()
+task1()
 task2()
